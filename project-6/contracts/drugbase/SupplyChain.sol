@@ -144,7 +144,7 @@ contract SupplyChain is
   }
 
   // Define a function 'CreateDrug' that allows a manufacturer to mark an item 'Created'
-  function CreateDrug(uint _upc, address _originManufacturerID, string _originManufacturerName, string _originManufacturerInformation, string  _originManufacturerLatitude, string  _originManufacturerLongitude, string  _productNotes) public 
+  function createDrug(uint _upc, address _originManufacturerID, string _originManufacturerName, string _originManufacturerInformation, string  _originManufacturerLatitude, string  _originManufacturerLongitude, string  _productNotes) public 
   onlyManufacturer
   {
     // Add the new item as part of Harvest
