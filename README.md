@@ -7,6 +7,8 @@
   - Activity Diagram
   - State Diagram
 
+### libraries:
+  - truffle-assertions: It is necessary to check if the events were emitted
 ### Contract Info
 
 #### Versions
