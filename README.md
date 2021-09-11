@@ -22,6 +22,10 @@
 ### Libraries:
   - None libraries are used.
 ### Contract Info
+  - Main contract: 0xA2eAa8ef3d7A739762B84b7810Efd1f85D0a4259
+  - Inspector Role: 0xbDe6f552d38bA7F0A010A8Dab36993A1d188fbf8
+  - Distributor Role: 0xcfE21955c3Bf5D4BBF319Daf348A4435bC68dB7b
+  - Buyer Role: 0xe3cFB8f19Ae6EdEAa5e641E4a493Fc97F5331543
 
 ### Test: 
   ```
