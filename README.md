@@ -20,10 +20,19 @@
 
 
 ### Libraries:
-  - truffle-assertions: It is necessary to check if the events were emitted
+  - None libraries are used.
 ### Contract Info
 
-### Test Results: 
+### Test: 
+  ```
+  trufle develop
+
+  # Compile
+  truffle(develop)> compile
+
+  # Test
+  truffle(develop)> test
+  ```
 
 ![test_results](https://user-images.githubusercontent.com/54293203/132936949-5515af6a-3a39-4249-ad4c-504bab927045.png)
 
