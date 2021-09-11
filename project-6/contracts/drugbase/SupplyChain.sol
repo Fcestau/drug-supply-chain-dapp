@@ -232,10 +232,10 @@ contract SupplyChain is
     
   }
 
-  // Define a function 'buyItem' that allows the retailer to mark an item 'Sold'
+  // Define a function 'buyDrug' that allows the retailer to mark an item 'Sold'
   // Use the above defined modifiers to check if the item is available for sale, if the buyer has paid enough, 
   // and any excess ether sent is refunded back to the buyer
-  function buyItem(uint _upc) public payable 
+  function buyDrug(uint _upc) public payable 
     onlyBuyer
     // Call modifier to check if upc has passed previous supply chain stage
     isForSale(_upc)
