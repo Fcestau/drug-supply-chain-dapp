@@ -7,13 +7,14 @@
     <title>Fair Trade Coffee</title>
     <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="style.css">
+
 </head>
 
 <body>
     <div class="container">
-        <h1 style="text-align: center;">Fair Trade Coffee</h1>
+        <h1 style="text-align: center;">Drug supply chain</h1>
         <hr>
-        <p style="text-align: center;">Prove the authenticity of coffee using the Ethereum blockchain.</p>
+        <p style="text-align: center;">Prove the authenticity of drugs using the Ethereum blockchain.</p>
     </div>
 
     <div id="ftc-harvest">
@@ -27,36 +28,37 @@
             <input type="number" id="upc" name="upc" value=1><br>
             Current Owner ID
             <br>
-            <input type="text" id="ownerID" name="ownerID" value="0x963865f57804b38459dd4b2da2f760211a200438" size="50"><br>
+            <input type="text" id="ownerID" name="ownerID" value="0x1E11227Ffd4ddD9EABbBB0339eB0e923466F7dC9" size="50"><br>
             <div class=button-div>
-                <button class="btn-fetchOne" id="button" type="button" data-id="9">Fetch Data 1</button>
-                <button class="btn-fetchTwo" id="button" type="button" data-id="10">Fetch Data 2</button>
+                <button class="btn-fetchOne" id="button" type="button" data-id="9" >Fetch Data 1</button>
+                <button class="btn-fetchTwo" id="button" type="button" data-id="10" >Fetch Data 2</button>
             </div>
         </div>
         <div class=form-break></div>
-        <h2>Farm Details</h2>
+        <h2>Manufacturer Details</h2>
         <div class="form-group">
-            Farmer ID
+            Manufacturer ID
             <br>
-            <input type="text" id="originFarmerID" name="originFarmerID" value="0x99c289eb2aacec289631a5ddf62cf27a63d4494f"
+            <input type="text" id="originManufacturerID" name="originManufacturerID" value="0x1E11227Ffd4ddD9EABbBB0339eB0e923466F7dC9"
                 size="50"><br>
-            Farm Name
+            Manufacturer Name
             <br>
-            <input type="text" id="originFarmName" name="originFarmName" value="John Doe"><br>
-            Farm Information
+            <input type="text" id="originManufacturerName" name="originManufacturerName" value="Yarra Valley"><br>
+            Manufacturer Information
             <br>
-            <input type="text" id="originFarmInformation" name="originFarmInformation" value="Yarra Valley"><br>
-            Farm Latitude
+            <input type="text" id="originManufacturerInformation" name="originManufacturerInformation" value="Yarra Valley"><br>
+            Manufacturer Latitude
             <br>
-            <input type="text" id="originFarmLatitude" name="originFarmLatitude" value="-38.239770"><br>
-            Farm Longitude
+            <input type="text" id="originManufacturerLatitude" name="originManufacturerLatitude" value="-38.239770"><br>
+            FManufacturerarm Longitude
             <br>
-            <input type="text" id="originFarmLongitude" name="originFarmLongitude" value="144.341490"><br>
+            <input type="text" id="originManufacturerLongitude" name="originManufacturerLongitude" value="144.341490"><br>
             <br>
-            <button class="btn-harvest" id="button" type="button" data-id="1">Harvest</button>
-            <button class="btn-process" id="button" type="button" data-id="2">Process</button>
-            <button class="btn-pack" id="button" type="button" data-id="3">Pack</button>
-            <button class="btn-forsale" id="button" type="button" data-id="4">ForSale</button>
+            <button class="btn-harvest" id="button" type="button" data-id="1">Create</button>
+            <button class="btn-process" id="button" type="button" data-id="2"  >Pack</button>
+            <button class="btn-pack" id="button" type="button" data-id="3">Tag</button>
+            <button class="btn-pack" id="button" type="button" data-id="5">Buy</button>
+            <button class="btn-purchase" id="button" type="button" data-id="12">Add Manufacturer</button>
         </div>
         <div class=form-break></div>
         <h2>Product Details</h2>
@@ -69,22 +71,23 @@
             <input type="number" id="productPrice" name="productPrice" value=1>ETH<br>
             Distributor ID
             <br>
-            <input type="text" id="distributorID" name="distributorID" value="0xf1b1bcd24dad92303dd9fe78be639f7bcf9c238d"
+            <input type="text" id="distributorID" name="distributorID" value="0x1E11227Ffd4ddD9EABbBB0339eB0e923466F7dC9"
                 size="50">
             <br>
-            Retailer ID
+            Inspector ID
             <br>
-            <input type="text" id="retailerID" name="retailerID" value="0x0fb2bfefd526966c87efa19f6693d50971763fc2"
+            <input type="text" id="inspectorID" name="inspectorID" value="0x1E11227Ffd4ddD9EABbBB0339eB0e923466F7dC9"
                 size="50"><br>
-            Distributor ID
+            Buyer ID
             <br>
-            <input type="text" id="consumerID" name="consumerID" value="0x5d777e9127b28fb119e81a6304278a0a21bef1c4"
+            <input type="text" id="buyerID" name="buyerID" value="0x1E11227Ffd4ddD9EABbBB0339eB0e923466F7dC9"
                 size="50"><br>
             <br>
-            <button class="btn-buy" id="button" type="button" data-id="5">Buy</button>
-            <button class="btn-ship" id="button" type="button" data-id="6">Ship</button>
-            <button class="btn-receive" id="button" type="button" data-id="7">Receive</button>
-            <button class="btn-purchase" id="button" type="button" data-id="8">Purchase</button>
+            <button class="btn-buy" id="button" type="button" data-id="4">Audit</button>
+            <button class="btn-ship" id="button" type="button" data-id="6">Distribute</button>
+            <button class="btn-purchase" id="button" type="button" data-id="7">Add Inspector</button>
+            <button class="btn-purchase" id="button" type="button" data-id="8">Add distributor</button>
+            <button class="btn-purchase" id="button" type="button" data-id="11">Add Buyer</button>
         </div>
         <div class=form-break></div>
         <hr>
@@ -101,6 +104,9 @@
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <!-- <script src="js/web3.min.js"></script> -->
+    <script src="https://cdn.jsdelivr.net/gh/ethereum/web3.js@1.0.0-beta.36/dist/web3.min.js" integrity="sha256-nWBTbvxhJgjslRyuAKJHK+XcZPlCnmIAAMixz6EefVk=" crossorigin="anonymous"></script>
+
+
     <script src="js/truffle-contract.js"></script>
     <script src="js/app.js"></script>
 </body>
