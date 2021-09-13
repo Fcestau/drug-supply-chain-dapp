@@ -22,14 +22,21 @@
 ### Libraries:
   - None libraries are used.
 ### Contract Info
-    Network: Rinkeby
-    
-    ![image](https://user-images.githubusercontent.com/54293203/132958829-e635d779-dc78-4465-b2da-7c02b2eb3b5b.png)
-    ![image](https://user-images.githubusercontent.com/54293203/132958858-3806d598-a88b-4617-a259-8cd8f366a147.png)
-    ![image](https://user-images.githubusercontent.com/54293203/132958867-31c934a5-fe1f-46d8-a6e2-3456bdd597e6.png) 
+  Network: Rinkeby
+  Contract: 0xdB176a9E95dbb994c7FBc79E36F7C67f12c6DB33  
+  ![image](https://user-images.githubusercontent.com/54293203/132958829-e635d779-dc78-4465-b2da-7c02b2eb3b5b.png)
+  ![image](https://user-images.githubusercontent.com/54293203/132958858-3806d598-a88b-4617-a259-8cd8f366a147.png)
+  ![image](https://user-images.githubusercontent.com/54293203/132958867-31c934a5-fe1f-46d8-a6e2-3456bdd597e6.png) 
+  ![image](https://user-images.githubusercontent.com/54293203/132958829-e635d779-dc78-4465-b2da-7c02b2eb3b5b.png)
 
-  - Contract: 0xdB176a9E95dbb994c7FBc79E36F7C67f12c6DB33
-
+### Run Frontend:
+  ```
+  # Install dependecies
+  npm install
+  
+  # Run app
+  npm run dev
+  ```
 ### Test: 
   ```
   trufle develop
